@@ -1,0 +1,133 @@
+
+
+/* Extends navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #56144D;
+	
+}
+
+/* Logo Style */
+img{
+
+	width:100px;
+	height:100px;
+	float: left;
+	/* display: block; */
+}
+
+/* Colour and style of the navigation bar */
+.topnav {
+  background-color: #000066;
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: centre;
+  color: #EEE1ED;
+  text-align: center;
+  padding: 1px 1px;
+  /* text-decoration: none; */
+  font-size: 30px;
+}
+
+
+/* Add a color to the active/current link  */
+.topnav a.active {
+  /* background-color: #56144D; */
+  color: #56144D;
+}
+
+ /* Meet the Team Style Section */
+div {
+		
+		color:mintcream;
+		font-weight: 100;
+		font-family:”Andale Mono”;
+		font-size:60px;
+		text-align: center;
+} 
+
+/*BODY*/
+
+body {
+		background-color:#56144D;
+			
+}
+
+
+H2{    
+	/* " Book a Date & Time" */   
+
+	color:mintcream;
+	font-weight: 50;
+	font-family:”Andale Mono”;
+	font-size:40px;
+	text-align: center;
+}
+/* * {
+		box-sizing: border-box;
+		
+ } */
+		  
+  /* Create 2 equal columns that float next to each other */
+  .column {
+			float: left;
+			width: 50%;
+			padding: 10px;
+			height: 650px;
+			font-weight: 50;
+			font-family:”Andale Mono”;
+			font-size:30px;
+			text-align: center;
+		  }
+		  
+		  /* Clear floats after the columns */
+	.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		  }
+
+/* Footer */
+.footer{ 	
+	
+		font-family:”Andale Mono”;
+		font-weight:100;
+		font-size:30px;
+		color:#EEE1ED;
+		background-color: #000066;
+		text-align: centre;
+		width: 100%;
+		left:0;
+		bottom:0;
+		height:200px;
+		position: fixed;
+}
+
+* {
+	box-sizing: border-box;
+	
+}
+  
+  .box {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+  
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+	
+
