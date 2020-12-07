@@ -1,6 +1,5 @@
 
 
-/* Extends navigation bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,6 +16,7 @@ img{
 	height:100px;
 	float: left;
 	/* display: block; */
+
 }
 
 /* Colour and style of the navigation bar */
@@ -44,82 +44,122 @@ img{
   color: #56144D;
 }
 
- /* Meet the Team Style Section */
+/* Bookings Header */
 div {
 		
 		color:mintcream;
 		font-weight: 100;
-		font-family:”Andale Mono”;
-		font-size:60px;
+		font-family:"Andale Mono";
+		font-size:50px;
 		text-align: center;
-} 
+		text-decoration: underline;
+}
 
 /*BODY*/
 
 body {
-		background-color:#56144D;
-			
-}
+			background-color:#56144D;
+	}
 
-
-H2{    
-	/* " Book a Date & Time" */   
-
-	color:mintcream;
-	font-weight: 50;
-	font-family:”Andale Mono”;
-	font-size:40px;
-	text-align: center;
-}
-/* * {
-		box-sizing: border-box;
+	div2 {
 		
- } */
-		  
-  /* Create 2 equal columns that float next to each other */
-  .column {
-			float: left;
-			width: 50%;
-			padding: 10px;
-			height: 650px;
-			font-weight: 50;
-			font-family:”Andale Mono”;
-			font-size:30px;
+		color:mintcream;
+		font-weight: 50;
+		font-family:"Andale Mono";
+		font-size:30px;
+		text-align: center;
+		position:absolute;
+		top:300px;
+		right:50px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 650px;
+    font-weight: 50;
+    font-family:”Andale Mono”;
+    font-size:20px;
+	text-align: centre;
+	background-color:#56144D;
+}
+
+/* PAYMENT BUTTON*/
+
+.button {
+			display: inline-block;
+			border-radius: 4px;
+			background-color: #ffffff;
+			border: none;
+			color: #000000;
+			font-family:"Andale Mono";
 			text-align: center;
-		  }
+			font-size: 28px;
+			padding: 20px;
+			width: 200px;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+			position:absolute;
+			bottom:250px;
+			right:50px;
+	 	}
 		  
-		  /* Clear floats after the columns */
-	.row:after {
-			content: "";
-			display: table;
-			clear: both;
-		  }
+.button span {
+			cursor: pointer;
+			display: inline-block;
+			position: relative;
+			transition: 0.5s;
+		}
+		  
+.button span:after {
+			content: '\00bb';
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			right: -20px;
+			transition: 0.5s;
+  		}
+		  
+.button:hover span {
+			padding-right: 25px;
+	    }
+		  
+.button:hover span:after {
+			opacity: 1;
+			right: 0;
+		}
 
 /* Footer */
 .footer{ 	
 	
 		font-family:”Andale Mono”;
 		font-weight:100;
-		font-size:30px;
+		font-size:20px;
 		color:#EEE1ED;
 		background-color: #000066;
 		text-align: centre;
 		width: 100%;
+		right:0;
 		left:0;
 		bottom:0;
-		height:200px;
-		position: fixed;
+		height:150px;
+		position: absolute;
 }
 
 * {
 	box-sizing: border-box;
-	
 }
+
+/* Height and colour properties */
   
   .box {
 	float: left;
 	width: 33.33%;
-	padding: 5px;
+	padding: 3px;
+	height: 500px;
+	background-color: #000066;
 }
   
   .clearfix::after {
@@ -128,6 +168,13 @@ H2{
 	display: table;
 }
 
+p{
+	font-family:”Andale Mono”;
+	font-weight:100;
+	font-size:20px;
+	color:#EEE1ED;
+	background-color: #000066;
+	text-align: centre;
 
-	
 
+}
