@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+		<title>Purple Hair</title>
+		<ul>
+			
+			<div class="topnav">
+			  <img src="Logo.png" alt="Purple Hair Logo">
+			  <a class="active" href="#home">Home</a>
+			  <a href="#Styles">Styles</a>
+			  <a href="#FAQs">FAQs</a>
+			  <a href="#Account">Account</a>
+			</div>
+
+		</ul>
+		<link type="text/css"><link rel="stylesheet" type="text/css" HREF="Paymentdetails.css"/>
+	</head>
+
+    <body>
+		<!-- Tab links -->
+		<div class="tab">
+		  <a href = "Account1.html"><button class="tablinks" onclick="clickhandle(event, 'Account')">Account</button></a>
+		  <a href = "Personaldetails.html"><button class="tablinks" onclick="clickhandle(event, 'PersonalDetails')">Personal Details</button></a>
+		  <a href = "Paymentdetails.html"><button class="tablinks" onclick="clickhandle(event, 'PaymentDetails')" style= "background-color: #ddd">Payment Details</button></a>
+		  <a href = "Previousbooking.html"><button class="tablinks" onclick="clickhandle(event, 'Previous Bookings')">Previous Bookings</button></a>
+		</div>
+		<br />
+		
+		<div class = "tabcontent">
+			<div id = "Payment Details">
+	  			 <fieldset>
+	  				 <legend>Payment Details:</legend>
+	            <label for="Cnumber">Card Number</label>
+	  		    <input type="text" id="Cnumber" name="CardNumber" placeholder="0567 8765 6785 3456">
+
+	  		    <label for="Edate">Expiry Date</label>
+	  		    <input type="text" id="Edate" name="ExpiryDate" placeholder="07/2022">
+			
+	  		    <label for="Scode">Security Code</label>
+	  		    <input type="text" id="Scode" name="SecurityCode" placeholder="919">
+			
+	  		    <label for="Pcode">Postcode</label>
+	  		    <input type="text" id="Pcode" name="PostCode" placeholder="CR0 7HH">
+				
+	  			<a href = "Previousbooking.html"><button>Update payment details</button></a>
+	  		</fieldset>
+	  </div>
+	</body>
+	  
+ <div class="footer"> 
+		<div class="clearfix">
+			<div class="box" style="background-color:#000066">
+			<p><B>Find us at</B></p>
+			<p>32 Malet St</p>
+			<p>London</p>
+			<p>WC1E 7HX</p>
+			</div>
+			<div class="box" style="background-color:#000066">
+				<p><B>Location</B></p>
+		
+		    <iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Malet%20St,%20London%20WC1E%207HU,%20United%20Kingdom+(PurpleHair)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+				
+		    </iframe>
+		</div>
+	
+			<div class="box" style="background-color:#000066">
+			   <p><B>Contact us at</B></p>
+			   <p>07824485364 </p>
+			   <p>purplehair@gmail.com</p>
+			</div>
+		
+			<div class="box" style="background-color:#000066">
+			   <p>Some text inside the box.</p>
+			</div>	
+	    </div>
+</div>		
+</html>	
