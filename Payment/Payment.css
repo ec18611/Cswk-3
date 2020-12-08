@@ -53,7 +53,7 @@ body {
 		background-color:#56144D;
 }
 
- /* Contact Us Section */
+ /* Header Section */
 
 div {
 		
@@ -63,6 +63,25 @@ div {
 	font-size:35px;
 	text-align: center;
 } 
+
+.button {
+	display: inline-block;
+	border-radius: 7px;
+	background-color: #000066;
+	border: none;
+	color: #ffffff;
+	font-family:"Andale Mono";
+	text-align: center;
+	font-size: 20px;
+	padding: 7px;
+	width: 750px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	position:absolute;
+	top:190px;
+	left:100px;
+ }
 
 p {    /* Labels */
 
@@ -106,7 +125,7 @@ input[type=text], select {     /* Text Inputs */
 
   /* PAYMENT BUTTON*/
 
-.button {
+.button2 {
 	display: inline-block;
 	border-radius: 4px;
 	background-color: #ffffff;
@@ -125,14 +144,14 @@ input[type=text], select {     /* Text Inputs */
 	right:20px;
  }
   
-.button span {
+.button2 span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
 }
   
-.button span:after {
+.button2 span:after {
 	content: '\00bb';
 	position: absolute;
 	opacity: 0;
@@ -141,11 +160,11 @@ input[type=text], select {     /* Text Inputs */
 	transition: 0.5s;
   }
   
-.button:hover span {
+.button2:hover span {
 	padding-right: 25px;
 }
   
-.button:hover span:after {
+.button2:hover span:after {
 	opacity: 1;
 	right: 0;
 }
