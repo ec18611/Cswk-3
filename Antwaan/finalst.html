@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<head>
+	
+		<title>Purple Hair</title>
+		<ul>
+		
+			<div class="topnav">
+			  <img src="Logo.png" alt="Purple Hair Logo">
+			  <a class="active" href="#home">Home</a>
+			  <a href="#Styles">Styles</a>
+			  <a href="Faq.html">FAQs</a>
+			  <a href="#Account">Account</a>
+			</div>
+
+		</ul>
+		<link type="text/css"><link rel="stylesheet" type="text/css" HREF="Accordion.css"/>
+
+	
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h2>HAIR SERVICES</h2>
+<p>At Purple Hair Salon we offer a wide range of hair services to cater for female and male customers, for all hair types and both male and female styles and textures.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Style')" id="defaultOpen">Premium Styles</button>
+  <button class="tablinks" onclick="openTab(event, 'Colour')">Colour & Dye</button>
+  <button class="tablinks" onclick="openTab(event, 'QuickStyles')">Quick Styles</button>
+</div>
+
+
+<div id="Style" class="tabcontent">
+	
+ 
+ 
+<nav class="product-filter">
+
+
+
+  <div class="sort">
+
+    <div class="collection-sort">
+      <label>Filter by:</label>
+      <select>
+        <option value="/">All</option>
+      </select>
+    </div>
+
+    <div class="collection-sort">
+      <label>Sort by:</label>
+      <select>
+     
+        <option value="/">Featured</option>
+      </select>
+    </div>
+
+  </div>
+
+</nav>
+
+<section class="products">
+
+  <!-- It's likely you'll need to link the card somewhere. You could add a button in the info, link the titles, or even wrap the entire card in an <a href="..."> -->
+
+  <div class="product-card">
+    <div class="product-image">
+      <a href = "firstlogin.html"><img src="bgirl.png"></a>
+
+    </div>
+    <div class="product-info">
+      <h5>Ladies cut & finish</h5>
+      <P>69.99 GBP<P>
+
+
+    </div>
+  </div>
+
+  
+  <!-- more products -->
+  <div class="product-card">
+    <div class="product-image">
+      <img src="bboy.png">
+    </div>
+    <div class="product-info">
+      <h5>Gents cut & finish</h5>
+      <p>39.99 GBP<p>
+    </div>
+    
+   
+    </div>
+    
+</div>
+
+<div id="Colour" class="tabcontent">
+  <h3>PAGE INACTIVE</h3>
+  <p>This page is not to be used in Testing</p> 
+</div>
+
+<div id="QuickStyles" class="tabcontent">
+  <h3>PAGE INACTIVE</h3>
+  <p>This page is not to be used in Testing</p>
+</div>
+
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+function init()
+	{
+		document.getElementById("bgirl").onmouseover = hoverOverD1;
+		document.getElementById("bgirl").onmouseout = moveAwayD1;
+		
+		document.getElementById("bboy").onmouseover = hoverOverD2;
+		document.getElementById("bboy").onmouseout = moveAwayD2;
+	
+	}
+	
+window.onload = init;
+
+function hoverOverD1()
+	{
+	document.getElementById("bgirl").src="bgirl.png";
+	
+	}
+				
+function moveAwayD1()
+	{
+	document.getElementById("bgirl").src="bgirl.png";
+	}
+	
+function hoverOverD2()
+	{
+	document.getElementById("bboy").src="bboy.png";
+	
+	}
+		
+			
+function moveAwayD2()
+	{
+	document.getElementById("bboy").src="bboy.png";
+
+	}
+</script>
+   
+</body>
+
+
+
+<div class="footer"> 
+	<div class="clearfix">
+		<div class="box" style="background-color:#000066">
+		<p><B>Find us at</B></p>
+		<p>32 Malet St</p>
+		<p>London</p>
+		<p>WC1E 7HX</p>
+		</div>
+		<div class="box" style="background-color:#000066">
+			<p><B>Location</B></p>
+		
+				<iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Malet%20St,%20London%20WC1E%207HU,%20United%20Kingdom+(PurpleHair)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+				
+				</iframe>
+			</div>
+		<div class="box" style="background-color:#000066">
+		<p><B>Contact us at</B></p>
+		<p>07824485364 </p>
+		<p>purplehair@gmail.com</p>
+		</div>
+		<div class="box" style="background-color:#000066">
+		<p>Some text inside the box.</p>
+		</div>
+		
+</html> 
+
+
+
+
+

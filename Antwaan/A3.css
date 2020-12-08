@@ -1,0 +1,71 @@
+h2{ 
+	
+	margin: 0px;
+	font-weight:900;
+	font-family:”courier”;
+	font-size:75px;
+	color:darkslategrey;
+	background-color:cadetblue;
+	
+	}
+
+table{ 
+
+	font-family:”courier”;
+	font-size:35px;
+	color:darkkhaki;	
+	background-color:mintcream
+}
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkkhaki;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: darkslategrey;
+	font-size:25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+body {
+			background-color:darkslategrey;
+		}
+
+
+
+		
+p {
+	font-family:”Courier”;
+	font-size:20px;
+	color:mintcream;
+	
+}
+
+footer{ 	
+	
+		font-family:”courier”;
+		font-weight:900;
+		font-size:45px;
+		color:darkkhaki;
+		background-color:cadetblue;
+		text-align: center;
+		height:200px;
+		width: 100%;
+		left:0;
+		right:0;
+		bottom:0;
+		height:50px;
+		position:fixed;	
+

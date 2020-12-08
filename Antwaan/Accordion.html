@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Purple Hair</title>
+	<ul>
+		
+		<div class="topnav">
+		  <img src="Logo.png" alt="Purple Hair Logo">
+		  <a class="active" href="#home">Home</a>
+		  <a href="#Styles">Styles</a>
+		  <a href="#FAQs">FAQs</a>
+		  <a href="#Account">Account</a>
+		</div>
+
+	</ul>
+	<link type="text/css"><link rel="stylesheet" type="text/css" HREF="Accordion.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color:#6A5ACD ;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: centre;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #000066; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: ;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<h2>FAQs</h2>
+<p>We understand you probably have a couple of questions about what to expect when you visit us for a date with your stylist. Take a look below for answers to the most common questions we receive. If your question is not answered below just give your local salon a call and our team will be happy to help.</p>
+
+<button class="accordion">Can I Reschedule my appointment</button>
+<div class="panel">
+  <p>You can make changes to your appointment or reschedule up to 24 hours before you are due to visit. Just follow the instructions on your confirmation email and if in doubt give us a call and we will be able to help you.</p>
+</div>
+
+<button class="accordion">What happens if I don't turn up for my appointment?</button>
+<div class="panel">
+  <p>We know life happens so we like to be as flexible as possible. That is why you can make changes to your appointment or reschedule up to 24 hours before you are due to visit. If you do not turn up for your appointment you will be charged a fifty percent fee of your booking as we will not have a chance to offer that appointment with your wonderful stylist to someone else.</p>
+</div>
+
+<button class="accordion">What happens if I need to cancel my appointment less than 24hrs before it begins because of an emergency? </button>
+<div class="panel">
+  <p>We understand that emergencies happen. If an emergency stops you from making your appointment please just give your salon a call and our lovely team will be able to help.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) 
+{
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<div class="footer"> 
+	<div class="clearfix">
+		<div class="box" style="background-color:#000066">
+		<p><B>Find us at</B></p>
+		<p>32 Malet St</p>
+		<p>London</p>
+		<p>WC1E 7HX</p>
+		</div>
+		<div class="box" style="background-color:#000066">
+			<p><B>Location</B></p>
+		
+				<iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Malet%20St,%20London%20WC1E%207HU,%20United%20Kingdom+(PurpleHair)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+				
+				</iframe>
+			</div>
+		<div class="box" style="background-color:#000066">
+		<p><B>Contact us at</B></p>
+		<p>07824485364 </p>
+		<p>purplehair@gmail.com</p>
+		</div>
+		<div class="box" style="background-color:#000066">
+		<p>Some text inside the box.</p>
+		</div>
+		
+		
+
+</body>
+</html>
+
