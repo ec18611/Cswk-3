@@ -1,0 +1,140 @@
+
+/* table{ 
+
+	font-family:”Andale Mono”;
+	font-size:100px;
+	color:#EEE1ED;	
+	background-color:#1F7887;
+	
+} */
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #56144D;
+	
+}
+
+img{
+
+	width:100px;
+	height:100px;
+	float: left;
+	/* display: block; */
+
+}
+
+/* Colour and style of the navigation bar */
+.topnav {
+  background-color: #000066;
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: centre;
+  color: #EEE1ED;
+  text-align: center;
+  padding: 1px 1px;
+  /* text-decoration: none; */
+  font-size: 30px;
+}
+
+
+
+/* Meet the Team Style Section */
+div {
+		
+		color:mintcream;
+		font-weight: 100;
+		font-family:”Andale Mono”;
+		font-size:60px;
+		text-align: center;
+}
+
+/*BODY*/
+
+body {
+			background-color:#56144D;
+			
+
+		}
+		* {
+			box-sizing: border-box;
+		  }
+		  
+		  .img-container {
+			float: left;
+			width: 25%;
+			padding: 5px;
+		  }
+		  
+		  .clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		  }
+
+p 	{
+
+	font-family: "Andale Mono";
+	font-size: 20px;
+	color: mintcream;
+	text-align: centre;
+	
+}
+
+/* Footer */
+.footer{ 	
+	
+	font-family:”Andale Mono”;
+	font-weight:100;
+	font-size:20px;
+	color:#EEE1ED;
+	background-color: #000066;
+	text-align: centre;
+	width: 100%;
+	right:0;
+	left:0;
+	bottom:0;
+	height:150px;
+	position: absolute;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* Height and colour properties */
+
+.box {
+float: left;
+width: 33.33%;
+padding: 3px;
+height: 500px;
+background-color: #000066;
+}
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+
+p{
+font-family:”Andale Mono”;
+font-weight:100;
+font-size:20px;
+color:#EEE1ED;
+background-color: #000066;
+text-align: centre;
+
+
+}
+
+	
+
